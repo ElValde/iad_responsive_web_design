@@ -74,7 +74,7 @@ Les spécifications récentes que sont Flexbox et Grid ont été développées a
 
 ### Layout responsive avec grid
 
-CSS grid permet de réaliser facilement des layout resmonsives en redéfinissant des grilles à différents breakpoints à l'aide de media queries.
+CSS grid permet de réaliser facilement des layout responsives en redéfinissant des grilles à différents breakpoints à l'aide de media queries.
 
 ```html
 <!DOCTYPE html>
