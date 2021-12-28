@@ -341,7 +341,7 @@ La situation est un peu plus complexe au niveau des images de contenus. [Une sol
 
 Cette solution est [implémentée dans la plupart des navigateurs aujourd’hui](http://responsiveimages.org/). Le polyfill JavaScript "[Picturefill](http://scottjehl.github.io/picturefill/)" vous permet de l'utiliser avec des navigateurs qui ne supportent pas les images responsives par défaut. Comme tout polyfill cela implique quelques concessions à faire comme le détaille Scott Jhel dans son article "[To picturefill, or not to Picturefill](http://filamentgroup.com/lab/to-picturefill.html)".
 
-Personnellement, je n’utilise plus Picturefill dans mes projets aujourd’hui et utilise simplement `srcset`, `sizes` ou `picture`. Les nabvigateurs qui ne supportent pas `srcset`, `sizes` ou `picture` servent simplement l'image spécifiée par l'atribut `src`. Pour un support parfait au niveau du layout, vous pouvez toujours spécifier une image de grande taille pour l'attibut `src`.
+Personnellement, je n’utilise plus Picturefill dans mes projets aujourd’hui et utilise simplement `srcset`, `sizes` ou `picture`. Les navigateurs qui ne supportent pas `srcset`, `sizes` ou `picture` servent simplement l'image spécifiée par l'atribut `src`. Pour un support parfait au niveau du layout, vous pouvez toujours spécifier une image de grande taille pour l'attibut `src`.
 
 #### srcset and sizes
 
